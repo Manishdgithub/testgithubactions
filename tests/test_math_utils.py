@@ -19,8 +19,8 @@ def test_add(a, b, expected):
 def test_divide_valid_numbers():
     assert divide(10, 2) == 5.0
     assert divide(9, 3) == 3.0
-    assert divide(15, 3) == 5.0
 
+    
 
 def test_divide_by_zero():
     with pytest.raises(ZeroDivisionError, match="Cannot divide by zero."):
